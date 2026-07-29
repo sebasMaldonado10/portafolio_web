@@ -2,11 +2,11 @@ import { FaGraduationCap, FaLanguage } from "react-icons/fa6";
 
 export default function AcercaDeMi() {
   return (
-    <section
-      id="acerca-de-mi"
-      className="mx-auto max-w-6xl scroll-mt-25 px-6 py-10"
-    >
-      <h2 className="mb-12 text-center text-3xl font-bold text-white md:text-4xl">
+    <section className="mx-auto max-w-6xl px-6 py-10">
+      <h2
+        id="acerca-de-mi"
+        className="mb-12 scroll-mt-28 text-center text-3xl font-bold text-white md:text-4xl"
+      >
         Acerca de mí
       </h2>
 

@@ -23,11 +23,11 @@ import { BsLightning } from "react-icons/bs";
 
 export default function Tecnologias() {
   return (
-    <section
-      id="tecnologias"
-      className="mx-auto max-w-7xl scroll-mt-36 px-6 py-20"
-    >
-      <h2 className="mb-12 text-center text-3xl font-bold text-white md:text-4xl">
+    <section className="mx-auto max-w-7xl scroll-mt-36 px-6 py-20">
+      <h2 
+        id="tecnologias"
+        className="mb-12 scroll-mt-28 text-center text-3xl font-bold text-white md:text-4xl"
+      >
         Tecnologías
       </h2>
 

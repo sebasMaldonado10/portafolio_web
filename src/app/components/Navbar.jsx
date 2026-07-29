@@ -72,7 +72,7 @@ export default function Navbar() {
             </ul>
           </nav>
 
-          <div className="hidden items-center gap-2 justify-self-end text-base text-zinc-300 md:flex transition duration-300 hover:-translate-y-0.5 cursor-pointer hover:text-white">
+          <div className="hidden items-center gap-2 justify-self-end text-base text-zinc-300 md:flex transition duration-300 hover:-translate-y-0.5 hover:text-white">
             <FaMapMarkerAlt className="text-base" />
             <span>Río Cuarto, Córdoba</span>
           </div>
