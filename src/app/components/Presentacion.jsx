@@ -39,15 +39,13 @@ export default function Presentacion() {
       </div>
 
       {/* Foto */}
-      <div className="relative flex justify-center">
-        <div className="absolute h-72 w-72 rounded-full bg-cyan-500/15 blur-3xl" />
-
+      <div className="flex justify-center md:justify-end">
         <Image
-          src="/perfilmejor.jpg"
+          src="/nueva1.jpg"
           alt="Fotografía de Sebastián Maldonado"
-          width={320}
-          height={320}
-          className="h-80 w-80 rounded-full border border-cyan-400/30 object-cover object-[center_30%] shadow-2xl"
+          width={400}
+          height={400}
+          className="h-[400px] w-80 rounded-2xl border border-cyan-400/30 object-cover object-top shadow-xl shadow-cyan-500/10"
           priority
         />
       </div>
