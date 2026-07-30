@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Presentacion() {
   return (
     <section
-      className="mx-auto grid min-h-[85vh] max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-2"
+      className="mx-auto grid min-h-[85vh] max-w-6xl items-center gap-12 px-6 py-20 md:grid-cols-2 md:gap-10 md:py-8"
     >
       {/* Datos personales */}
       <div className="text-left md:text-left">
@@ -39,13 +39,15 @@ export default function Presentacion() {
       </div>
 
       {/* Foto */}
-      <div className="flex justify-center md:justify-end">
+      <div className="relative flex justify-center">
+        <div className="absolute h-72 w-72 rounded-full bg-cyan-500/15 blur-3xl" />
+
         <Image
-          src="/foto_perfil.jpg"
+          src="/perfilmejor.jpg"
           alt="Fotografía de Sebastián Maldonado"
-          width={450}
-          height={450}
-          className="border-4 rounded-xl border-white/20 object-cover shadow-2xl"
+          width={320}
+          height={320}
+          className="h-80 w-80 rounded-full border border-cyan-400/30 object-cover object-[center_30%] shadow-2xl"
           priority
         />
       </div>
